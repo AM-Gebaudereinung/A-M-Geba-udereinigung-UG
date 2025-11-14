@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /private/
 
-# Sitemap für Google
+# Crawl-delay für Server-Schonung
+Crawl-delay: 1
+
+# Sitemaps
 Sitemap: https://am-gebaudereinigung.de/sitemap.xml
-Sitemap: https://am-gebaudereinigung.de/sitemap-news.xml
